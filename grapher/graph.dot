@@ -1,0 +1,115 @@
+
+digraph {
+node[
+  shape=rect
+  width=0 height=0 margin=0.07
+  style=filled
+  fontsize=11]
+edge[
+  penwidth=1
+  arrowsize=0.6
+  arrowhead=vee
+  pencolor="#444444"]
+rankdir = LR
+nodesep = 0.07
+ranksep = 0.5
+
+"source-build-reference-packages"
+"source-build-reference-packages" -> "arcade"
+"source-build-reference-packages" -> "runtime"
+"sourcelink"
+"sourcelink" -> "arcade"
+"sourcelink" -> "source-build-reference-packages" [color = green]
+"arcade"
+"arcade" -> "arcade"
+"arcade" -> "roslyn"
+"arcade" -> "linker"
+"arcade" -> "sourcelink" [color = green]
+"arcade" -> "xliff-tasks"
+"application-insights"
+"cssparser"
+"humanizer"
+"netcorecli-fsc"
+"newtonsoft-json"
+"newtonsoft-json901"
+"xdt"
+"xdt" -> "arcade" [color = green]
+"clicommandlineparser"
+"clicommandlineparser" -> "arcade" [color = green]
+"clicommandlineparser" -> "source-build-reference-packages" [color = green]
+"command-line-api"
+"command-line-api" -> "arcade" [color = green]
+"diagnostics"
+"diagnostics" -> "arcade" [color = green]
+"diagnostics" -> "installer"
+"diagnostics" -> "source-build-reference-packages" [color = green]
+"diagnostics" -> "aspnetcore"
+"diagnostics" -> "runtime"
+"roslyn"
+"roslyn" -> "xliff-tasks" [color = green]
+"roslyn" -> "source-build" [color = green]
+"roslyn" -> "arcade" [color = green]
+"roslyn" -> "roslyn"
+"symreader"
+"symreader" -> "arcade" [color = green]
+"test-templates"
+"test-templates" -> "arcade"
+"xliff-tasks"
+"xliff-tasks" -> "arcade" [color = green]
+"linker"
+"linker" -> "arcade" [color = green]
+"linker" -> "runtime"
+"msbuild"
+"msbuild" -> "arcade" [color = green]
+"msbuild" -> "runtime"
+"msbuild" -> "roslyn"
+"NuGet.Client"
+"runtime"
+"runtime" -> "arcade"
+"runtime" -> "vstest"
+"runtime" -> "runtime"
+"runtime" -> "linker"
+"templating"
+"templating" -> "source-build" [color = green]
+"templating" -> "source-build-reference-packages" [color = green]
+"templating" -> "arcade" [color = green]
+"roslyn-analyzers"
+"roslyn-analyzers" -> "arcade" [color = green]
+"aspnetcore"
+"aspnetcore" -> "runtime"
+"aspnetcore" -> "arcade" [color = green]
+"fsharp"
+"fsharp" -> "xliff-tasks" [color = green]
+"fsharp" -> "arcade" [color = green]
+"sdk"
+"sdk" -> "templating"
+"sdk" -> "runtime"
+"sdk" -> "msbuild"
+"sdk" -> "fsharp"
+"sdk" -> "roslyn"
+"sdk" -> "aspnetcore"
+"sdk" -> "vstest"
+"sdk" -> "linker"
+"sdk" -> "roslyn-analyzers"
+"sdk" -> "arcade" [color = green]
+"vstest"
+"vstest" -> "arcade" [color = green]
+"vstest" -> "roslyn"
+"vstest" -> "sourcelink"
+"vstest" -> "xliff-tasks"
+"installer"
+"installer" -> "runtime"
+"installer" -> "aspnetcore"
+"installer" -> "test-templates"
+"installer" -> "templating"
+"installer" -> "sdk"
+"installer" -> "fsharp"
+"installer" -> "vstest"
+"installer" -> "linker"
+"installer" -> "roslyn"
+"installer" -> "msbuild"
+"installer" -> "arcade" [color = green]
+"installer" -> "source-build-reference-packages"
+"installer" -> "sourcelink"
+"installer" -> "xliff-tasks"
+}

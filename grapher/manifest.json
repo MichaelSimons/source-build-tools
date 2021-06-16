@@ -1,0 +1,123 @@
+{
+  "repos": [
+    {
+      "name": "source-build-reference-packages",
+      "url": "https://github.com/dotnet/source-build-reference-packages"
+    },
+    {
+      "name": "sourcelink",
+      "url": "https://github.com/dotnet/sourcelink"
+    },
+    {
+      "name": "arcade",
+      "url": "https://github.com/dotnet/arcade"
+    },
+    {
+      "name": "application-insights",
+      "url": "https://github.com/dotnet/source-build",
+      "isExternal": true
+    },
+    {
+      "name": "cssparser",
+      "url": "https://github.com/dotnet/source-build",
+      "isExternal": true
+    },
+    {
+      "name": "humanizer",
+      "url": "https://github.com/dotnet/source-build",
+      "isExternal": true
+    },
+    {
+      "name": "netcorecli-fsc",
+      "url": "https://github.com/dotnet/source-build",
+      "isExternal": true
+    },
+    {
+      "name": "newtonsoft-json",
+      "url": "https://github.com/dotnet/source-build",
+      "isExternal": true
+    },
+    {
+      "name": "newtonsoft-json901",
+      "url": "https://github.com/dotnet/source-build",
+      "isExternal": true
+    },
+    {
+      "name": "xdt",
+      "url": "https://github.com/dotnet/xdt"
+    },
+    {
+      "name": "clicommandlineparser",
+      "url": "https://github.com/dotnet/clicommandlineparser"
+    },
+    {
+      "name": "command-line-api",
+      "url": "https://github.com/dotnet/command-line-api"
+    },
+    {
+      "name": "diagnostics",
+      "url": "https://github.com/dotnet/diagnostics"
+    },
+    {
+      "name": "roslyn",
+      "url": "https://github.com/dotnet/roslyn"
+    },
+    {
+      "name": "symreader",
+      "url": "https://github.com/dotnet/symreader"
+    },
+    {
+      "name": "test-templates",
+      "url": "https://github.com/dotnet/test-templates"
+    },
+    {
+      "name": "xliff-tasks",
+      "url": "https://github.com/dotnet/xliff-tasks"
+    },
+    {
+      "name": "linker",
+      "url": "https://github.com/mono/linker"
+    },
+    {
+      "name": "msbuild",
+      "url": "https://github.com/dotnet/msbuild"
+    },
+    {
+      "name": "NuGet.Client",
+      "url": "https://github.com/NuGet/NuGet.Client",
+      "nonArcade": true
+    },
+    {
+      "name": "runtime",
+      "url": "https://github.com/dotnet/runtime"
+    },
+    {
+      "name": "templating",
+      "url": "https://github.com/dotnet/templating"
+    },
+    {
+      "name": "roslyn-analyzers",
+      "url": "https://github.com/dotnet/roslyn-analyzers"
+    },
+    {
+      "name": "aspnetcore",
+      "url": "https://github.com/dotnet/aspnetcore"
+    },
+    {
+      "name": "fsharp",
+      "url": "https://github.com/dotnet/fsharp"
+    },
+    {
+      "name": "sdk",
+      "url": "https://github.com/dotnet/sdk"
+    },
+    {
+      "name": "vstest",
+      "url": "https://github.com/microsoft/vstest"
+    },
+    {
+      "name": "installer",
+      "url": "https://github.com/dotnet/installer"
+    }
+  ]
+}
